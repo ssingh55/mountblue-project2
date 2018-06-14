@@ -1,0 +1,8 @@
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+.top-items{
+	flex-direction: column;
+
+}
