@@ -1,7 +1,9 @@
 a{
 	text-decoration: none;
 }
-
+body{
+	color: grey;
+}
 .top{
 	display: flex;
 	justify-content: space-between;
@@ -45,8 +47,45 @@ a{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: auto;
-	padding: 40px 15px 40px 40px;
+	padding: 40px 20px 40px 40px;
 }
 .product > .item{
 
+}
+.size-quantity{
+	display: flex;
+	flex-direction: column;
+}
+.size{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+.quantity{
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+}
+.quantity label{
+	/*display: inline-block;*/
+}
+select{
+	width: 80%;
+	border: none;
+	outline: none;
+	background-color: white;
+}
+.description> h3{
+	color: #000010;
+}
+.description p{
+	text-align: justify;
+}
+.button{
+	background-color: white;
+	padding: 3% 9% 3% 9%;
+	border: 2px solid black;
+	font-size: 16px;
+	margin-top: 3%;
+}
+.footer{
+	text-align: center;
 }
