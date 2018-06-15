@@ -1,0 +1,10 @@
+.t1{
+	text-align: center;
+}
+.your-cart{
+	text-align: center;
+}
+input[type="checkbox"]:checked body{
+	display: none;
+}
+body:contains-selector(a.active) { background: red; }
