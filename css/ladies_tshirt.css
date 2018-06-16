@@ -3,3 +3,13 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-rows: minwidth(200px,auto);
 }
+@media screen and (max-width: 640px){
+	.items_grid{
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minwidth(200px,auto);
+	}
+}
+.items_grid img{
+	width: 100%;
+		height: 100%;
+}
