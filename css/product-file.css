@@ -1,91 +1,71 @@
-a{
-	text-decoration: none;
-}
-body{
-	color: grey;
-}
-.top{
-	display: flex;
-	justify-content: space-between;
-}
-.top-items{
-	flex-direction: column;
-	/*font-weight: 100;*/
-	font:bold;
-}
-.item_list{
-	display: flex;
-/*	justify-content: space-around;*/
-	justify-content: center;
-
+.item_list {
+    display: flex;
+    /*	justify-content: space-around;*/
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
-.item_list_name{
-	padding: 2%;
-	font-size: 90%;
-	margin-top: 4%;
+.item_list_name {
+    padding: 1%;
+    font-size: 90%;
+    margin-top: 4%;
 }
-.item_list_name:nth-child(1):active {
-	border-bottom: 1px solid red;
+.item_list_name:active {
+    background-color: #acabb2;
+}
 
-	/*padding-right: 1%;*/
-}
-.item_list_name:nth-child(2) {
-	border-bottom: 1px solid grey;
-	/*padding-right: 20px;*/
-	/*padding: 10px;*/
-}
-.item_list_name:nth-child(3) {
-	border-bottom: 1px solid blue;
-	/*padding-right: 1%;*/
-}
-.item_list_name:nth-child(4) {
-	border-bottom: 1px solid black;
-	/*padding-right: 1%;*/
-}
-.product{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-auto-rows: auto;
-	padding: 40px 20px 40px 40px;
-}
-.product > .item{
+/*.item_list_name:nth-child(1) {
+    border-bottom: 1px ;
 
+    padding-right: 1%
+}*/
+.item_list_name:nth-child(1):active ,
+.item_list_name:nth-child(2):active ,
+.item_list_name:nth-child(3):active ,
+.item_list_name:nth-child(4):active
+{
+    border-bottom: 2px solid black;
 }
-.size-quantity{
-	display: flex;
-	flex-direction: column;
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    padding: 40px 20px 40px 40px;
 }
-.size{
-	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
+
+.product>.item {}
+
+.size-quantity {
+    display: flex;
+    flex-direction: column;
 }
-.quantity{
-	border-bottom: 1px solid grey;
-	border-top: 1px solid grey;
+
+.size {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
-.quantity label{
-	/*display: inline-block;*/
+
+.quantity {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
 }
-select{
-	width: 80%;
-	border: none;
-	outline: none;
-	background-color: white;
+
+.quantity label {
+    /*display: inline-block;*/
 }
-.description> h3{
-	color: #000010;
+
+select {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: white;
 }
-.description p{
-	text-align: justify;
+
+.description>h3 {
+    color: #000010;
 }
-.button{
-	background-color: white;
-	padding: 3% 9% 3% 9%;
-	border: 2px solid black;
-	font-size: 16px;
-	margin-top: 3%;
-}
-.footer{
-	text-align: center;
+
+.description p {
+    text-align: justify;
 }

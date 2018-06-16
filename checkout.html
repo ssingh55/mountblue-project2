@@ -1,105 +1,109 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="refresh" content="10">
-	<meta name="viewport" content="width:content-devices,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/checkout.css">
-	<link rel="stylesheet" type="text/css" href="css/product-file.css">
-	<title>Checkout</title>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="10">
+    <meta name="viewport" content="width:content-devices,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Checkout</title>
 </head>
+
 <body>
-	<section class="top">
-		<div class="top-items t1">
-			<p>Shop</p>
-		</div>
-		<div class="top-items t2">
-			<p>cart</p>		
-		</div>
-	</section>
-	<section class="checkout">
-		<div class="checkout-header">
-			<p>Checkout</p>
-			<p>Form data of shopping</p>
-		</div>
-	</section>
-	<section>
-		<form action="#" method="post">
-			<div>
-				<p>Account Information</p>
-				<input type="text" name="email" placeholder="email">
-				<input type="number" name="phone-number" placeholder="Phone Number">
-			</div>
-			<div>
-				<p>Shipping Address</p>
-				<input type="text" name="address" placeholder="Address">
-				<input type="text" name="city" placeholder="city">
-				<input type="text" name="state" placeholder="State/Province">
-				<input type="number" name="zip-code" placeholder="Zip/Postal Code">
-				<label>Country</label>
-				<select>
-					<option>United States</option>
-					<option>India</option>
-					<option>Pakistan</option>
-				</select>
-			</div>
-			<div>
-				<p>Billing Address</p>
-				<input type="checkbox" name="check-billing"><label>Use different billing address</label>
-				<div class="billing">
-					<input type="text" name="address" placeholder="Address">
-					<input type="text" name="city" placeholder="city">
-					<input type="text" name="state" placeholder="State/Province">
-					<input type="number" name="zip-code" placeholder="Zip/Postal Code">
-					<label>Country</label>
-					<select>
-						<option>United States</option>
-						<option>India</option>
-						<option>Pakistan</option>
-					</select>
-				</div>
-			</div>
-			<div >
-				<p>Payment Method</p>
-				<input type="text" name="cardholder-name" placeholder="Cardholder Name">
-				<input type="text" name="card-number" placeholder="Card Number">
-				<label>Expiry</label>
-				<select class="month">
-					<option value="Jan">Jan</option>
-					<option value="feb">feb</option>
-					<option value="mar">mar</option>
-					<option value="apr">apr</option>
-					<option value="jun">jun</option>
-					<option value="may">may</option>
-					<option value="aug">aug</option>
-				</select>
-				<select class="year">
-					<option value="2014">2014</option>
-					<option value="2015">2015</option>
-					<option value="2016">2016</option>
-					<option value="2017">2017</option>
-					<option value="2018">2018</option>
-					<option value="2019">2019</option>
-					<option value="2020">2020</option>
-				</select>
-				<input type="number" name="cvv" placeholder="CVV">
-			</div>
-			<div>
-				<p>Order Summary</p>
-				<div>
-					<label>Men's Tech Shell Full-Zip</label>
-					<label>$50.20</label>
-				</div>
-				<div>
-					<label>Total</label>
-					<label>$50.20</label>
-				</div>
-			</div>
-			<input type="submit" name="submit" value="Place order">
-		</form>
-	</section>
-	<footer>
-		<p style="text-align: center;">Made by Shubham Singh</p>
-	</footer>
+    <section class="top">
+        <div class="top-items t1">
+            <p>Shop</p>
+        </div>
+        <div class="top-items t2">
+            <p>cart</p>
+        </div>
+    </section>
+    <section class="checkout">
+        <div class="checkout-header">
+            <p>Checkout</p>
+            <p>Form data of shopping</p>
+        </div>
+    </section>
+    <section>
+        <form action="#" method="post">
+            <div>
+                <p>Account Information</p>
+                <input type="text" name="email" placeholder="email">
+                <input type="number" name="phone-number" placeholder="Phone Number">
+            </div>
+            <div>
+                <p>Shipping Address</p>
+                <input type="text" name="address" placeholder="Address">
+                <input type="text" name="city" placeholder="city">
+                <input type="text" name="state" placeholder="State/Province">
+                <input type="number" name="zip-code" placeholder="Zip/Postal Code">
+                <label>Country</label>
+                <select>
+                    <option>United States</option>
+                    <option>India</option>
+                    <option>Pakistan</option>
+                </select>
+            </div>
+            <div>
+                <p>Billing Address</p>
+                <input type="checkbox" name="check-billing" id="differnt-billing">
+                <label for="differnt-billing">Use different billing address</label>
+                <div class="billing">
+                    <input type="text" name="address" placeholder="Address">
+                    <input type="text" name="city" placeholder="city">
+                    <input type="text" name="state" placeholder="State/Province">
+                    <input type="number" name="zip-code" placeholder="Zip/Postal Code">
+                    <label>Country</label>
+                    <select>
+                        <option>United States</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <p>Payment Method</p>
+                <input type="text" name="cardholder-name" placeholder="Cardholder Name">
+                <input type="text" name="card-number" placeholder="Card Number">
+                <label>Expiry</label>
+                <select class="month">
+                    <option value="Jan">Jan</option>
+                    <option value="feb">feb</option>
+                    <option value="mar">mar</option>
+                    <option value="apr">apr</option>
+                    <option value="jun">jun</option>
+                    <option value="may">may</option>
+                    <option value="aug">aug</option>
+                </select>
+                <select class="year">
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+                <input type="number" name="cvv" placeholder="CVV">
+            </div>
+            <div>
+                <p>Order Summary</p>
+                <div>
+                    <label>Men's Tech Shell Full-Zip</label>
+                    <label>$50.20</label>
+                </div>
+                <div>
+                    <label>Total</label>
+                    <label>$50.20</label>
+                </div>
+            </div>
+            <input type="submit" name="submit" value="Place order">
+        </form>
+    </section>
+    <footer>
+        <p style="text-align: center;">Made by Shubham Singh</p>
+    </footer>
 </body>
+
 </html>

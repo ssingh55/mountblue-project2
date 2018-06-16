@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+    color : black;
+    /*border: 5px solid black;*/
+}
+a:active{
+    background-color: 706f77;
+}
+
+body {
+    color: grey;
+}
+
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top-items {
+    flex-direction: column;
+    /*font-weight: 100;*/
+    font: bold;
+}
+
+.button {
+    background-color: white;
+    padding: 3% 9% 3% 9%;
+    border: 2px solid black;
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.footer{
+    text-align: center;
+}

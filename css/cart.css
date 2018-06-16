@@ -8,3 +8,9 @@ input[type="checkbox"]:checked body{
 	display: none;
 }
 body:contains-selector(a.active) { background: red; }
+footer{
+	position: fixed;
+	/*text-align: center;*/
+	bottom: 0;
+	left: 38%;
+}
