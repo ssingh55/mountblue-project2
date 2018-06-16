@@ -14,13 +14,15 @@ body {
 
 .top {
     display: flex;
-    justify-content: center;
+    /*justify-content: flex-end;*/
+    text-align: right;
 }
 
 .top-items {
     flex-direction: column;
     /*font-weight: 100;*/
     font: bold;
+    flex: 1;
 }
 
 .button {
@@ -33,4 +35,12 @@ body {
 
 .footer{
     text-align: center;
+}
+.home_icon{
+    text-align: center;
+}
+.home_icon p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
 }

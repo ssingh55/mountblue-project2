@@ -12,6 +12,8 @@
 }
 .item_list_name:active {
     background-color: #acabb2;
+    animation-timing-function: ease-out; 
+    animation-duration: 4s;
 }
 
 /*.item_list_name:nth-child(1) {
