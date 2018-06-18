@@ -10,12 +10,13 @@
 	margin-top: 15%;
 
 }
-.items_grid  .item{
-	/*vertical-align: middle;*/
+/*.items_grid  .item{
+	vertical-align: middle;
 	width: 100%;
-}
+}*/
 .item img{
 	padding-bottom: 10%;
+	width: 100%;
 }
 
 
