@@ -12,11 +12,14 @@
 
 <body>
     <section class="top">
+        <div class="top-items t3">
+            <p></p>
+        </div>
         <div class="top-items t1">
-            <p>Shop</p>
+            <p class="capital"><a href="file:///home/dev/mount_blue_2/index.html">shop</a></p>
         </div>
         <div class="top-items t2">
-            <p>cart</p>
+            <a href="/home/dev/mount_blue_2/cart.html"><img src="images/cart.jpg"></a>
         </div>
     </section>
     <section class="checkout">
@@ -25,44 +28,15 @@
             <p>Form data of shopping</p>
         </div>
     </section>
-    <section>
-        <form action="#" method="post">
-            <div>
+    <section class="form_section">
+        <form action="#" method="post" class="form">
+            <div class="account">
                 <p>Account Information</p>
                 <input type="text" name="email" placeholder="email">
                 <input type="number" name="phone-number" placeholder="Phone Number">
             </div>
-            <div>
-                <p>Shipping Address</p>
-                <input type="text" name="address" placeholder="Address">
-                <input type="text" name="city" placeholder="city">
-                <input type="text" name="state" placeholder="State/Province">
-                <input type="number" name="zip-code" placeholder="Zip/Postal Code">
-                <label>Country</label>
-                <select>
-                    <option>United States</option>
-                    <option>India</option>
-                    <option>Pakistan</option>
-                </select>
-            </div>
-            <div>
-                <p>Billing Address</p>
-                <input type="checkbox" name="check-billing" id="differnt-billing">
-                <label for="differnt-billing">Use different billing address</label>
-                <div class="billing">
-                    <input type="text" name="address" placeholder="Address">
-                    <input type="text" name="city" placeholder="city">
-                    <input type="text" name="state" placeholder="State/Province">
-                    <input type="number" name="zip-code" placeholder="Zip/Postal Code">
-                    <label>Country</label>
-                    <select>
-                        <option>United States</option>
-                        <option>India</option>
-                        <option>Pakistan</option>
-                    </select>
-                </div>
-            </div>
-            <div>
+
+            <div class="payment">
                 <p>Payment Method</p>
                 <input type="text" name="cardholder-name" placeholder="Cardholder Name">
                 <input type="text" name="card-number" placeholder="Card Number">
@@ -87,7 +61,22 @@
                 </select>
                 <input type="number" name="cvv" placeholder="CVV">
             </div>
-            <div>
+
+            <div class="shipping">
+                <p>Shipping Address</p>
+                <input type="text" name="address" placeholder="Address">
+                <input type="text" name="city" placeholder="city">
+                <input type="text" name="state" placeholder="State/Province">
+                <input type="number" name="zip-code" placeholder="Zip/Postal Code">
+                <label>Country</label>
+                <select>
+                    <option>United States</option>
+                    <option>India</option>
+                    <option>Pakistan</option>
+                </select>
+            </div>
+
+            <div class="order_summary">
                 <p>Order Summary</p>
                 <div>
                     <label>Men's Tech Shell Full-Zip</label>
@@ -98,11 +87,31 @@
                     <label>$50.20</label>
                 </div>
             </div>
+
+            <div>
+                <p>Billing Address</p>
+                <input type="checkbox" name="check-billing" id="differnt-billing">
+                <label for="differnt-billing">Use different billing address</label>
+                <div class="billing">
+                    <input type="text" name="address" placeholder="Address">
+                    <input type="text" name="city" placeholder="city">
+                    <input type="text" name="state" placeholder="State/Province">
+                    <input type="number" name="zip-code" placeholder="Zip/Postal Code">
+                    <label>Country</label>
+                    <select>
+                        <option>United States</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                    </select>
+                </div>
+            </div>
+            
+            
             <input type="submit" name="submit" value="Place order">
         </form>
     </section>
     <footer>
-        <p style="text-align: center;">Made by Shubham Singh</p>
+        <p>Made by Shubham Singh</p>
     </footer>
 </body>
 

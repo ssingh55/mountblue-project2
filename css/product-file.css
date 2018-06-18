@@ -6,9 +6,9 @@
 }
 
 .item_list_name {
-    padding: 1%;
-    font-size: 90%;
-    margin-top: 4%;
+    padding: 11px 10px;
+    font: 12px 'Arial';
+    margin-top: 2%;
 }
 .item_list_name:active {
     background-color: #acabb2;
@@ -70,4 +70,18 @@ select {
 
 .description p {
     text-align: justify;
+}
+
+
+@media screen and (max-width: 768px){
+    .item_list{
+        display: none;
+    }
+    ./*image .im,*/.home_icon img{
+        display: none;
+    }
+
+    /*{
+        grid-template-columns: 1fr 1fr;
+    }*/
 }

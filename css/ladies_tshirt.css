@@ -1,15 +1,47 @@
 .items_grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-auto-rows: minwidth(200px,auto);
+	/*max-width: 25%; remember it dont do this mistake again*/
+	/*justify-items: center;*/
+
 }
-@media screen and (max-width: 640px){
+.items_grid div{
+	text-align: center;
+	margin-top: 15%;
+
+}
+.items_grid  .item{
+	/*vertical-align: middle;*/
+	width: 100%;
+}
+.item img{
+	padding-bottom: 10%;
+}
+
+
+span{
+	display: block;
+}
+.item_name{
+	font-weight: 600;
+	color: black;
+	text-align: center;
+	display: block;
+}
+@media (min-width:360px) and (max-width: 768px){
 	.items_grid{
 		grid-template-columns: 1fr 1fr;
-		grid-auto-rows: minwidth(200px,auto);
+		/*grid-auto-rows: minwidth(200px,auto);*/
 	}
 }
-.items_grid img{
-	width: 100%;
+@media screen and (max-width: 360px)
+{
+	/*.items_grid img{
+		width: 100%;
 		height: 100%;
+	}*/
+	.items_grid{
+		grid-template-columns: 1fr;
+		/*grid-auto-rows: minwidth(200px,auto);*/
+	}
 }

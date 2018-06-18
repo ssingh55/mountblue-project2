@@ -1,23 +1,38 @@
-.top{
-	justify-content: flex-end;
-}
-.t1{
-	flex: 8;
-	text-align: center;
-}
-.t2{
-	flex: 1;
-}
+
 .checkout-header{
 	text-align: center;
 	margin-top: 10%;
 }
 .checkout-header>p:first-child {
-	font-weight: bold;
+	font-weight: 400;
+	color: black;
+	margin-bottom: 1%;
 }
 .billing{
 	display: none;
 }
 input[type=checkbox]:checked~.billing{
 	display: block;
+}
+.form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items : center;
+}
+
+.form_section p{
+	color: black;
+	font-weight: 600;
+}
+.form_section {
+	display: block;
+}
+
+input[type="text"],input[type="number"]{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
 }
