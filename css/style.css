@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: 'Arial', 'Halvetica', sans-serif;
 }
 a {
     text-decoration: none;
@@ -156,7 +157,7 @@ input.responsive{
 .responsive{
     display: none;
 }
-input[type="checkbox"]{
+.topitems input[type="checkbox"]{
     display: none;
 }
 
