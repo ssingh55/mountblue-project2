@@ -13,7 +13,18 @@
 <body>
     <section class="top">
         <div class="top-items t3">
-            <p></p>
+            <div class="checked_display">
+                <input type="checkbox" id="toggle">
+                <label for="toggle">&#9776;</label>
+                <nav>
+                    <ul>
+                        <li><a href="">Men's Outerwear</a></li>
+                        <li><a href="">Ladies Outerwear</a></li>
+                        <li><a href="">Men's Tshirts</a></li>
+                        <li><a href="">Men's Tshirts</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <div class="top-items t1">
             <p class="capital"><a href="file:///home/dev/mount_blue_2/index.html">shop</a></p>
@@ -43,8 +54,8 @@
                     <input type="text" name="city" placeholder="city">
                     <input type="text" name="state" placeholder="State/Province">
                     <input type="number" name="zip-code" placeholder="Zip/Postal Code">
-                    <label>Country</label>
-                    <select class="country">
+                    <label class="country">Country</label>
+                    <select class="country_details">
                         <option>United States</option>
                         <option>India</option>
                         <option>Pakistan</option>
@@ -59,8 +70,8 @@
                         <input type="text" name="city" placeholder="city">
                         <input type="text" name="state" placeholder="State/Province">
                         <input type="number" name="zip-code" placeholder="Zip/Postal Code">
-                        <label>Country</label>
-                        <select class="country">
+                        <label class="country">Country</label>
+                        <select class="country_details">
                             <option>United States</option>
                             <option>India</option>
                             <option>Pakistan</option>
@@ -111,7 +122,8 @@
                         </div>
                     </div>
                 </div>
-                <input class="button responsive" type="submit" name="submit" value="Place order">
+                <input class="button" type="submit" name="submit" value="Place order">
+                <input class="responsive" type="submit" name="submit" value="Place order">
             </div>
         </form>
     </section>
