@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     font-family: 'Arial', 'Halvetica', sans-serif;
+    /*font-size: 13px;*/
 }
 a {
     text-decoration: none;
@@ -8,14 +9,14 @@ a {
     /*border: 5px solid black;*/
 }
 a:active{
-    background-color: 706f77;
+    background-color: #706f77;
 }
 a:focus{
-    background-color: 706f77;
+    background-color: #706f77;
 }
 
 body {
-    color: grey;
+    color: #757575;
 }
 
 
@@ -118,7 +119,7 @@ body {
     color: black;
     cursor: pointer;
     display: inline-block;
-    font-size: 18px;
+    font-size: 13px;
     padding: 5px 9px;
     transition: all .15s ease;
 }

@@ -27,15 +27,15 @@
             </div>
         </div>
         <div class="top-items t1">
-            <p class="capital"><a href="file:///home/dev/mount_blue_2/index.html">shop</a></p>
+            <p class="capital"><a href="index.html">shop</a></p>
         </div>
         <div class="top-items t2">
-            <a href="/home/dev/mount_blue_2/cart.html"><img src="images/cart.jpg"></a>
+            <a href="cart.html"><img src="images/cart.jpg"></a>
         </div>
     </section>
     <section class="checkout">
         <div class="checkout-header">
-            <p>Checkout</p>
+            <h1>Checkout</h1>
             <!-- <h1>Checkout</h1> -->
             <p>Form data of shopping</p>
         </div>
@@ -68,8 +68,14 @@
                     <div class="billing">
                         <input type="text" name="address" placeholder="Address">
                         <input type="text" name="city" placeholder="city">
-                        <input type="text" name="state" placeholder="State/Province">
-                        <input type="number" name="zip-code" placeholder="Zip/Postal Code">
+                        <div class="state-zip">
+                            <div class="state">
+                                <input type="text" name="state" placeholder="State/Province">
+                            </div>
+                            <div class="zip">
+                                <input type="number" name="zip-code" placeholder="Zip/Postal Code">
+                            </div>
+                        </div>
                         <label class="country">Country</label>
                         <select class="country_details">
                             <option>United States</option>
@@ -81,7 +87,7 @@
             </div>
             <div class="form2">
                 <div class="payment">
-                    <p>Payment Method</p>
+                    <h2>Payment Method</h2>
                     <input type="text" name="cardholder-name" placeholder="Cardholder Name">
                     <input type="text" name="card-number" placeholder="Card Number">
                     <label class="expiry">Expiry</label>
@@ -106,7 +112,7 @@
                     <input type="number" name="cvv" placeholder="CVV">
                 </div>
                 <div class="order_summary">
-                    <p>Order Summary</p>
+                    <h2>Order Summary</h2>
                     <div class="order_summary_details">
                         <div class="a">
                             <label>Men's Tech Shell Full-Zip</label>
@@ -122,8 +128,8 @@
                         </div>
                     </div>
                 </div>
-                <input class="button" type="submit" name="submit" value="Place order">
-                <input class="responsive" type="submit" name="submit" value="Place order">
+                <a href="cart.html"> <input class="button" type="submit" name="submit" value="Place order">
+                <input class="responsive" type="submit" name="submit" value="Place order"></a>
             </div>
         </form>
     </section>
