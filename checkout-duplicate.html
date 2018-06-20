@@ -7,12 +7,12 @@
     <meta name="viewport" content="width:content-devices,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/checkout-duplicate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Checkout</title>
+    <title>Checkout</title> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
 <body>
-	<section class="top">
-        <div class="top-items t3">
+	<!-- <div class="top-items t3">
             <div class="checked_display">
                 <input type="checkbox" id="toggle">
                 <label for="toggle">&#9776;</label>
@@ -25,19 +25,91 @@
                     </ul>
                 </nav>
             </div>
+        </div> -->
+    <header>
+        <div class="shop-header">
+            <h1>
+                <a href="index.html">S H O P</a>
+            </h1>
+            <div class="cart">
+                <a href="cart.html">
+                    <img class="full-cart-icon" src="images/cart.jpg" width="30px" height="30px">
+                </a>
+            </div>
         </div>
-        <div class="top-items t1">
-            <p class="capital"><a href="index.html">shop</a></p>
-        </div>
-        <div class="top-items t2">
-            <a href="cart.html"><img src="images/cart.jpg"></a>
-        </div>
-    </section>
+    </header>
 
-    <section>
-    	<h1 class="checkout_name capital">checkout</h1>
+    <div class="checkout-title">
+        <h3>Checkout</h3>
+        <h4>Shop is a demo app - form data will not be sent</h4>
+    </div>
 
-    </section>
+    <div class="checkout-info">
+        <div class="checkout-div">
+            <h5>Account Information</h5>
+
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone Number">
+
+            <h5>Shipping Address</h5>
+
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="City">
+            <div class="more-than-one">
+                <input type="text" placeholder="State/Province">
+                <input type="number" placeholder="Zip/PIN">
+            </div>
+
+            <h6>Country</h6>
+            <select name="country">
+                <option value="india">India</option>
+            </select>
+            <div>
+	            <h5>Billing Address</h5>
+	            <label class="checkbox-container">Use different Billing Address
+	                <input type="checkbox">
+	                <span class="checkmark"></span>
+	            </label>
+	            <div class="check-billing">
+		            <input type="text" placeholder="Address">
+		            <input type="text" placeholder="City">
+		            <div class="more-than-one">
+		                <input type="text" placeholder="State/Province">
+		                <input type="number" placeholder="Zip/PIN">
+		            </div>
+	        	</div>
+            	<br>
+        	</div>
+        </div>
+
+        <div class="checkout-div">
+            <h5>Payment Method</h5>
+            <input type="text" placeholder="Cardholder Name">
+            <input type="number" placeholder="Card Number">
+            <h5>Expiry</h5>
+
+            <div class="more-than-one">
+                <input type="month">
+                <input type="number" placeholder="CVV" class="cvv">
+            </div>
+            <h5>Order Summary</h5>
+            <div class="summary">
+                <p>Men's Tech Shell Full-Zip</p>
+                <p>$38.85</p>
+            </div>
+            <div class="summary">
+                <p>Total</p>
+                <p>$38.85</p>
+            </div>
+
+            <button type="submit"><a href="cart.html">Place Order</a></button>
+        </div>
+    </div>
+
+    <footer>
+        <a href="">Made by Shubham</a>
+        <div class="demo-project">DEMO ONLY</div>
+    </footer>
 
 </body>
 </html>
