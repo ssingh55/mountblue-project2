@@ -1,13 +1,11 @@
-body{
-	font-size: 13px;
-}
+
 .checkout-header{
 	text-align: center;
 	margin-top: 80px;
 }
 .checkout-header>h1 {
 	font-weight: normal;
-	color: black;
+	color: #202020;
 	font-size: 16px;
 	margin-bottom: 1%;
 }
@@ -57,7 +55,7 @@ input[type="text"],input[type="number"]{
 .expiry,.country{
 	margin-top: 10%;
 	display: block;
-	color: black;
+	color: #202020;
 }
 
 .month,.year ,.country_details{
@@ -65,14 +63,14 @@ input[type="text"],input[type="number"]{
 	background-color: white;
 	outline: none;
 	border-style: none;
-	margin-bottom: 1px solid black;
+	margin-bottom: 1px solid #202020;
 }
 
 .order_summary_details{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10%;
-	color: black;
+	color: #202020;
 	/*grid-auto-columns: minwidth(10px,auto);*/
 }
 .order_summary_details .a {

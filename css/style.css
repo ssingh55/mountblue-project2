@@ -1,22 +1,23 @@
 *{
     margin: 0px;
     font-family: 'Arial', 'Halvetica', sans-serif;
-    /*font-size: 13px;*/
+    line-height: 1.5;
 }
 a {
     text-decoration: none;
-    color : black;
-    /*border: 5px solid black;*/
+    color : #202020;
+    /*border: 5px solid #202020;*/
 }
-a:active{
+/*a:active{
     background-color: #706f77;
 }
 a:focus{
     background-color: #706f77;
-}
+}*/
 
 body {
     color: #757575;
+    font-size: 13px;
 }
 
 
@@ -30,9 +31,11 @@ body {
     flex-direction: column;
     font-weight: 600;
     /*font: bold;*/
-    letter-spacing: .25em;
+    letter-spacing: .30em;
     /*flex: 1;*/
-    color: #000000;
+    font-size: 16px;
+    color: #202020;
+    line-height: 1.5;
     margin-top: 20px;
     /*padding-top: 1%;*/
 }
@@ -48,9 +51,9 @@ body {
 }
 
 .top-items img{
-    height: 20px;
-    width: 20px;
-    padding-right: 5px;
+    height: 21px;
+    width: 21px;
+    padding-right: 4px;
     padding-top: 2px;
 
 }
@@ -62,7 +65,7 @@ body {
 .button {
     background-color: white;
     padding: 3% 9% 3% 9%;
-    border: 2px solid black;
+    border: 2px solid #202020;
     font-size: 16px;
     margin-top: 3%;
 }
@@ -80,7 +83,7 @@ body {
 .home_icon p:nth-child(2){
     font-weight: 400;
     font-size: 18px;
-    color: black;
+    color: #202020;
     letter-spacing: .5px;
     margin-bottom: 10px;
 }
@@ -116,7 +119,7 @@ body {
     display: none;
 }
 .checked_display label{
-    color: black;
+    color: #202020;
     cursor: pointer;
     display: inline-block;
     font-size: 13px;

@@ -11,24 +11,26 @@
 	width: 100%;
 }*/
 .image_text{
-	padding: 1%;
+	/*padding: 1%;*/
 	text-align: center;
-	margin: 
+	margin: 32px 0;
+	font-weight: 500;
+	font-size: 17px;
 }
-.buttn{
+/*.image_text*/ .buttn{
 	display: block;
 	text-align: center;
 	/*margin: 0 auto;*/
 	margin-bottom: 4%;
 }
 .buttn button{
-	/*padding: 4% 20%;*/
-	/*font-weight: 100;*/
-
-	font-size: 120%;
-	border:1px solid black;
+	font-size: 14px;
+	font-weight: 500;
+	border:2px solid #000;
 	background-color: white;
 	padding: 8px 44px;
+	text-align: center;
+	margin-bottom: 15px;
 }
 .image .im img{
     object-fit: cover;
@@ -52,5 +54,5 @@
 }
 
 span{
-	color: black;
+	color: #202020;
 }

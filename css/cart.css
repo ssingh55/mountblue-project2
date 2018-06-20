@@ -1,8 +1,3 @@
-body{
-	font-family: 
-	font-size: 13px;
-}
-
 .t1,
 .your-cart {
     text-align: center;
@@ -11,7 +6,7 @@ body{
 .your-cart p:nth-child(1) {
     margin-top: 80px;
     margin-bottom: 5px;
-    color: black;
+    color: #202020;
 }
 
 .your-cart p:nth-child(2) {
@@ -155,7 +150,7 @@ footer {
 }
 .cart-details div:last-child{
 	padding-right: 40px;
-	color: black;
+	color: #202020;
 }
 .total_checkout{
 	display: flex;
