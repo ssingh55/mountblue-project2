@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<head>
-    <meta charset="utf-8">
-    <!-- <meta http-equiv="refresh" content="10"> -->
-    <meta name="viewport" content="width:content-devices,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/checkout-duplicate.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Checkout</title> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-</head>
 
-<body>
-	<!-- <div class="top-items top-items3">
+<head>
+
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="refresh" content="10"> -->
+        <meta name="viewport" content="width:content-devices,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/checkout-duplicate.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Checkout</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    </head>
+
+    <body>
+        <!-- <div class="top-items top-items3">
             <div class="checked_display">
                 <input type="checkbox" id="toggle">
                 <label for="toggle">&#9776;</label>
@@ -26,90 +28,148 @@
                 </nav>
             </div>
         </div> -->
-    <header>
-        <div class="shop-header">
-            <h1>
+        <header>
+            <div class="shop-header">
+                <h1>
                 <a href="index.html">S H O P</a>
             </h1>
-            <div class="cart">
-                <a href="cart.html">
+                <div class="cart">
+                    <a href="cart.html">
                     <img class="full-cart-icon" src="images/cart.jpg" width="30px" height="30px">
                 </a>
+                </div>
+            </div>
+        </header>
+        <div class="checkout-title">
+            <h3>Checkout</h3>
+            <h4>Shop is a demo app - form data will not be sent</h4>
+        </div>
+        <div class="checkout-info">
+            <div class="checkout-div">
+                <h5>Account Information</h5>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <label for="email">Email</label>
+                </div>
+                <div class="field">
+                    <input type="tel" id="phone" placeholder="Phone Number">
+                    <label for="phone">Phone Number</label>
+                </div>
+                <h5>Shipping Address</h5>
+                <div class="field">
+                    <input type="text" id="address" placeholder="Address">
+                    <label for="address">Address</label>
+                </div>
+                <div class="field">
+                    <input type="text" id="city" placeholder="City">
+                    <label for="city">City</label>
+                </div>
+                <div class="more-than-one">
+                    <div class="field">
+                        <input type="text" id="state" placeholder="State/Province">
+                        <label for="state">State</label>
+                    </div>
+                    <div class="field">
+                        <input type="number" id="zip" placeholder="Zip/PIN">
+                        <label for="zip">Zip</label>
+                    </div>
+                </div>
+                <h6>Country</h6>
+                <select name="country">
+                    <option value="india">India</option>
+                </select>
+                <div>
+                    <h5>Billing Address</h5>
+                    <label class="checkbox-container">Use different Billing Address
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="check-billing">
+                        <div class="field">
+                            <input type="text" id="billing-address" placeholder="Address">
+                            <label for="billing-address">Address</label>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="City" id="city">
+                            <label for="city">CITY</label>
+                        </div>
+                        <div class="more-than-one">
+                            <div class="field">
+                                <input type="text" id="province" placeholder="State/Province">
+                                <label for="province">State/Province</label>
+                            </div>
+                            <div class="field">
+                                <input type="number" id="pin" placeholder="Zip/PIN">
+                                <label for="pin"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="checkout-div">
+                <h5>Payment Method</h5>
+                <div class="field">
+                    <input type="text" placeholder="Cardholder Name" id="cardholder">
+                    <label for="cardholder">CardHolder</label>
+                </div>
+                <div class="field">
+                    <input type="number" id="cardnumber" placeholder="Card Number">
+                    <label for="cardnumber">CardNumber</label>
+                </div>
+                <h5>Expiry</h5>
+                <div class="more-than-one">
+                    <div class="field">
+                        <input type="month">
+                    </div>
+                    <!-- <div class="field">
+                        <select class="month">
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                        
+                    </div> -->
+                    <!-- <div class="field">
+                        <select class="year">
+                            <option value="2018">2018</option>
+                            <option value="2020">2020</option>
+                            <option value="2018">2018</option>
+                            <option value="2020">2020</option>
+                            <option value="2018">2018</option>
+                            <option value="2020">2020</option>
+                        </select> -->
+                    <div class="field">
+                        <input type="number" placeholder="CVV" class="cvv" id="cvv">
+                        <label for="cvv">CVV</label>
+                    </div>
+                </div>
+                <h5>Order Summary</h5>
+                <div class="summary">
+                    <p>Men's Tech Shell Full-Zip</p>
+                    <p>$38.85</p>
+                </div>
+                <div class="summary">
+                    <p>Total</p>
+                    <p>$38.85</p>
+                </div>
+                <button type="submit"><a class="capital" href="cart.html">Place Order</a></button>
+                
             </div>
         </div>
-    </header>
+        <footer>
+            <a href="">Made by Shubham</a>
+            <div class="demo-project">DEMO ONLY</div>
+        </footer>
+    </body>
 
-    <div class="checkout-title">
-        <h3>Checkout</h3>
-        <h4>Shop is a demo app - form data will not be sent</h4>
-    </div>
-
-    <div class="checkout-info">
-        <div class="checkout-div">
-            <h5>Account Information</h5>
-
-            <input type="email" placeholder="Email">
-            <input type="tel" placeholder="Phone Number">
-
-            <h5>Shipping Address</h5>
-
-            <input type="text" placeholder="Address">
-            <input type="text" placeholder="City">
-            <div class="more-than-one">
-                <input type="text" placeholder="State/Province">
-                <input type="number" placeholder="Zip/PIN">
-            </div>
-
-            <h6>Country</h6>
-            <select name="country">
-                <option value="india">India</option>
-            </select>
-            <div>
-	            <h5>Billing Address</h5>
-	            <label class="checkbox-container">Use different Billing Address
-	                <input type="checkbox">
-	                <span class="checkmark"></span>
-	            </label>
-	            <div class="check-billing">
-		            <input type="text" placeholder="Address">
-		            <input type="text" placeholder="City">
-		            <div class="more-than-one">
-		                <input type="text" placeholder="State/Province">
-		                <input type="number" placeholder="Zip/PIN">
-		            </div>
-	        	</div>
-            	<br>
-        	</div>
-        </div>
-
-        <div class="checkout-div">
-            <h5>Payment Method</h5>
-            <input type="text" placeholder="Cardholder Name">
-            <input type="number" placeholder="Card Number">
-            <h5>Expiry</h5>
-
-            <div class="more-than-one">
-                <input type="month">
-                <input type="number" placeholder="CVV" class="cvv">
-            </div>
-            <h5>Order Summary</h5>
-            <div class="summary">
-                <p>Men's Tech Shell Full-Zip</p>
-                <p>$38.85</p>
-            </div>
-            <div class="summary">
-                <p>Total</p>
-                <p>$38.85</p>
-            </div>
-
-            <button type="submit"><a href="cart.html">Place Order</a></button>
-        </div>
-    </div>
-
-    <footer>
-        <a href="">Made by Shubham</a>
-        <div class="demo-project">DEMO ONLY</div>
-    </footer>
-
-</body>
 </html>
